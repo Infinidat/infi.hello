@@ -1,9 +1,9 @@
 *.pyc
 *.swp
-*.egg-info/
 .project
 .pydevproject
 .installed.cfg
+*egg-info/
 
 bin
 eggs
