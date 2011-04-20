@@ -1,6 +1,6 @@
 *.pyc
 *.swp
-*.egg-info
+*.egg-info/
 .project
 .pydevproject
 .installed.cfg
