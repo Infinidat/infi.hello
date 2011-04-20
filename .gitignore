@@ -1,3 +1,11 @@
 *.pyc
 *.swp
 *.*project
+.installed.cfg
+
+bin
+eggs
+develop-eggs
+parts
+build
+dist
