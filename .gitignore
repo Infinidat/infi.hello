@@ -2,7 +2,7 @@
 # generic
 *.swp
 *.pyc
-*.egg-info*/*
+*.egg-info/
 
 # eclipse
 .project
