@@ -1,6 +1,0 @@
-[console_scripts]
-script = hello:script.main
-
-[gui_scripts]
-
-
