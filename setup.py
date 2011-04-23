@@ -21,7 +21,7 @@ SETUP_INFO = dict(
 
     entry_points = dict(
         console_scripts = [
-            'script = hello:script.main'],
+            'hello = hello.script:main'],
         gui_scripts = [])
 
     )
