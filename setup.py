@@ -1,6 +1,6 @@
 
 SETUP_INFO = dict(
-    name = 'hello',
+    name = 'infinidat.hello',
     version = '0.1',
     author = 'Your Name Here',
     author_email = 'username@infinidat.com',
@@ -25,7 +25,7 @@ SETUP_INFO = dict(
 
     # A string or list of strings specifying what other distributions need to be installed when this one is
     # We use namespaced packages so we must require setuptools
-    install_requires = ['setuptools', 'ipython', 'goodbye'],
+    install_requires = ['setuptools', 'ipython', 'infinidat.goodbye'],
 
     # A dictionary mapping names of "extras" (optional features of your project) to strings or lists of strings specifying what
     # other distributions must be installed to support those features.
@@ -39,7 +39,7 @@ SETUP_INFO = dict(
 
     dependency_links = [],
 
-    namespace_packages = ['hello', ],
+    namespace_packages = ['infinidat'],
 
     # packages = find_packages('src'),
     package_dir = {'': 'src'},
@@ -48,7 +48,7 @@ SETUP_INFO = dict(
     # A dictionary mapping entry point group names to strings or lists of strings defining the entry points
     entry_points = dict(
         console_scripts = [
-            'hello = hello.script:main'],
+            'hello = infinidat.hello.script:main'],
         gui_scripts = [])
 
     )
