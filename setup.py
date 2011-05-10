@@ -1,17 +1,14 @@
 
 SETUP_INFO = dict(
     name = 'infinidat.hello',
-    version = '0.1',
-    author = 'Your Name Here',
-    author_email = 'username@infinidat.com',
-    maintainer = 'Your Name Here',
-    maintainer_email = 'username@infinidat.com',
+    version = '0-1-gf695d47',
+    author = 'Guy Rozendorn',
+    author_email = 'guy@rzn.co.il',
 
     url = 'http://www.infinidat.com',
-    keywords = 'string of space-separated keywords',
     license = 'PSF',
-    description = 'short description',
-    long_description = ('long description'),
+    description = 'simple interface in Python to get version tags out of git describe',
+    long_description = ('simple interface in Python to get version tags out of git describe'),
 
     # http://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers = [
@@ -25,32 +22,19 @@ SETUP_INFO = dict(
 
     # A string or list of strings specifying what other distributions need to be installed when this one is
     # We use namespaced packages so we must require setuptools
-    install_requires = ['setuptools', 'ipython', 'infinidat.goodbye'],
-
-    # A dictionary mapping names of "extras" (optional features of your project) to strings or lists of strings specifying what
-    # other distributions must be installed to support those features.
-    extras_require = {},
-
-    # A string or list of strings specifying what other distributions need to be present in order for the setup script to run.
-    setup_requires = '',
-
-    test_suite = '',
-    tests_require = {},
-
-    dependency_links = [],
+    install_requires = ['setuptools'],
 
     namespace_packages = ['infinidat'],
 
     # packages = find_packages('src'),
     package_dir = {'': 'src'},
     include_package_data = True,
+    zip_safe = False,
 
-    # A dictionary mapping entry point group names to strings or lists of strings defining the entry points
     entry_points = dict(
         console_scripts = [
             'hello = infinidat.hello.script:main'],
-        gui_scripts = [])
-
+        gui_scripts = []),
     )
 
 def setup():
