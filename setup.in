@@ -30,7 +30,7 @@ SETUP_INFO = dict(
 
     entry_points = dict(
         console_scripts = [
-            'hello = infinidat.hello.script:main'],
+            'hello = ${project:name}.script:main'],
         gui_scripts = []),
     )
 
