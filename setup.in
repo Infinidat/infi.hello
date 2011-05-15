@@ -9,7 +9,7 @@ SETUP_INFO = dict(
     license = 'PSF',
     description = """${project:description}""",
     long_description = """${project:long_description}""",
-    
+
     # http://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers = [
         "Intended Audience :: Developers",
