@@ -30,7 +30,7 @@ SETUP_INFO = dict(
 
     entry_points = dict(
         console_scripts = [
-            'hello = ${project:name}.script:main'],
+            'hello = ${project:name}.scripts:main'],
         gui_scripts = []),
     )
 
