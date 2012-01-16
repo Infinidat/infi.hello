@@ -1,8 +1,8 @@
 [buildout]
 include-site-packages = false
+install-from-cache = true
 relative-paths = false
 unzip = true
-offline = true
 newest = false
 download-cache = .cache
 develop = .
