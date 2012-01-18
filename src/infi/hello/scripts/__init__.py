@@ -17,8 +17,5 @@ def post_install(argv=argv):
     _write_file('post_install')
 
 def pre_uninstall(argv=argv):
-    config = os.path.join(INSTALLDIR, 'config')
-    if not os.path.exists(config):
-        os.mkdir(config)
-    _write_file(os.path.join('config', 'pre_uninstall'))
+    _write_file(os.path.join(os.path.pardir, 'pre_uninstall'))
 
