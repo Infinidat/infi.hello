@@ -4,7 +4,7 @@ __import__("pkg_resources").declare_namespace(__name__)
 from sys import argv
 import os
 
-INSTALLDIR = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir))
+INSTALLDIR = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir, os.path.pardir, os.path.pardir))
 
 def main(argv=argv):
     print('hello world')
