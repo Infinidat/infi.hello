@@ -7,10 +7,6 @@ newest = false
 download-cache = .cache
 develop = .
 parts = production-scripts
-python = python-distribution
-
-[python-distribution]
-executable = parts/python/bin/python
 
 [production-scripts]
 dependent-scripts = true
