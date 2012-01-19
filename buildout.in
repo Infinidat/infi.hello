@@ -14,6 +14,6 @@ executable = parts/python/bin/python
 
 [production-scripts]
 dependent-scripts = true
-recipe = zc.recipe.egg
+recipe = infi.vendata.console_scripts
 eggs = {}
 
