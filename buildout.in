@@ -9,7 +9,7 @@ develop = .
 parts = production-scripts
 
 [production-scripts]
-dependent-scripts = true
+dependent-scripts = false
 recipe = infi.vendata.console_scripts
 eggs = {}
 
