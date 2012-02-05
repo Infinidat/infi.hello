@@ -1,5 +1,5 @@
 [buildout]
-include-site-packages = false
+include-site-packages = true
 install-from-cache = true
 relative-paths = false
 unzip = true
